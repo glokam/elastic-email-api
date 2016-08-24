@@ -1,0 +1,22 @@
+{
+  "name": "elastic-email-api",
+  "version": "1.0.0",
+  "description": "Elastic Email API wrapper",
+  "main": "./lib/elastic-email-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glokam/elastic-email-api.git"
+  },
+  "author": "Kamil Głowacki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glokam/elastic-email-api/issues"
+  },
+  "homepage": "https://github.com/glokam/elastic-email-api#readme",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
