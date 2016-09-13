@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/glokam/elastic-email-api.git"
   },
+  "keywords": [
+    "Elastic Email",
+    "mail sender",
+    "email",
+    "mail api"  
+  ],
   "author": "Kamil Głowacki",
   "license": "MIT",
   "bugs": {
