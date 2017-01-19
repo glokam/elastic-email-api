@@ -142,3 +142,15 @@ elastic.Account.Load({apikey: 'Your SubAccount Api Key String'}, function (respo
 
 //Returns detailed information about your subaccount.
 ```
+### Attachment Upload
+
+```js
+var formData = {
+  my_file: fs.createReadStream(__dirname + '/images.jpg')
+};
+
+
+elastic.Attachment.Upload({apikey: 'Your APIkey'}, function (responseObj) {
+    console.log(responseObj)
+}, formData);
+```
