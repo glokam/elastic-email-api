@@ -47,11 +47,12 @@ elastic.request({
     callback:  function (responseObj) {
     console.log(responseObj)
     }               
-});
+}, file);
 
 //elastic.request(optionObject);
 
 ```
+__From version 1.3.0 \"file\" parameter is used for attach the file as POST multipart/form-data f.e. in [Attachment Upload](https://github.com/glokam/elastic-email-api#attachment-upload)__
 
 __Input property:__
 ```js
@@ -62,8 +63,8 @@ __Input property:__
  hideApiKey: true // typeof "boolean", default: "false", more info below...
 }
 
-
 ```
+
 #### Response Object available in callback
 
 ```js
@@ -142,9 +143,12 @@ elastic.Account.Load({apikey: 'Your SubAccount Api Key String'}, function (respo
 
 //Returns detailed information about your subaccount.
 ```
-### Attachment Upload
+
+### Attachment Upload >= 1.3.0
 
 ```js
+const fs = require('fs');
+
 var formData = {
   my_file: fs.createReadStream(__dirname + '/images.jpg')
 };
