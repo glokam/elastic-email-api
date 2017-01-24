@@ -1,6 +1,6 @@
 {
   "name": "elastic-email-api",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Elastic Email API wrapper",
   "main": "./lib/elastic-email-api.js",
   "scripts": {
