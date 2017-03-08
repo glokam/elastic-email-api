@@ -1,6 +1,6 @@
 {
   "name": "elastic-email-api",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Elastic Email API wrapper",
   "main": "./lib/elastic-email-api.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "Elastic Email",
     "mail sender",
     "email",
-    "mail api"  
+    "mail api"
   ],
   "author": "Kamil Głowacki",
   "license": "MIT",
