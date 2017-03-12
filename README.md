@@ -114,3 +114,4 @@ elastic.request({
     console.log(responseObj)
 }, formData);
 ```
+__NOTE: From version 1.5.0 I only support request method, all wrapper methods are deprecated__
