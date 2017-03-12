@@ -111,7 +111,8 @@ elastic.request({
     path: "attachment/upload",
     apikey: 'Your APIkey',
     callback: function (responseObj) {
-    console.log(responseObj)
+      console.log(responseObj)
+    }
 }, formData);
 ```
 __NOTE: From version 1.5.0 I only support request method, all wrapper methods are deprecated__
